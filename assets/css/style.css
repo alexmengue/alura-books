@@ -3,6 +3,7 @@
     --branco: #FFFFFF;
     --laranja: #EB9B00;
     --azul: #002F52;
+    --preto: #000000;
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --fonte-principal: "Poppins";
     --fonte-secundaria: "Josefin Sans";
@@ -49,6 +50,14 @@ body {
 }
 
 .container__btn {
+    display: none;
+}
+
+.container__title {
+    display: none;
+}
+
+.options {
     display: none;
 }
 
@@ -266,6 +275,7 @@ hr {
     .container__title, .container__title-bold {
         font-family: var(--fonte-secundaria);
         font-size: 30px;
+        display: flex;
     }
 
     .container__title {
@@ -274,5 +284,36 @@ hr {
 
     .container__title-bold {
         font-weight: 700;
+    }
+
+    .options {
+        display: flex;
+    }
+
+    .options__item {
+        padding: 0 1em;
+        text-transform: uppercase;
+    }
+
+    .options__link {
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .container__img-transparent {
+        display: none;
+    }
+
+    .header__hamburger-menu {
+        display: none;
+    }
+
+    .options__btn:checked~.menu-list {
+        display: block;
+        width: auto;
+    }
+
+    .options__btn {
+        display: none;
     }
 }
