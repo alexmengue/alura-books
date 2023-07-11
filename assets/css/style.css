@@ -316,4 +316,16 @@ hr {
     .options__btn {
         display: none;
     }
+
+    .banner__title {
+        font-size: 36px;
+    }
+
+    .banner__search {
+        width: 50%;
+    }
+
+    .banner__search::placeholder {
+        background-position: 6em;
+    }
 }
