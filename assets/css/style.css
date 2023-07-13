@@ -350,4 +350,21 @@ hr {
         width: 40%;
         margin: 2em auto;
     }
+
+    .topics__list {
+        padding: 20px 50px;
+    }
+
+    .topics__list li {
+        padding: 5px;
+    }
+
+    .topics__title {
+        font-size: 24px;
+        padding-top: 10px;
+    }
+
+    .topics__link {
+        font-size: 24px;
+    }
 }
