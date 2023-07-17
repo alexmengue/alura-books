@@ -277,6 +277,10 @@ hr {
     display: none;
 }
 
+.container__text {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
     .container__title, .container__title-bold {
         font-family: var(--fonte-secundaria);
@@ -421,5 +425,26 @@ hr {
 
     .footer__title {
         font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .header {
+        padding: 0 2em;
+    }
+
+    .options {
+        margin-right: auto;
+    }
+
+    .container__text {
+        display: block;
     }
 }
