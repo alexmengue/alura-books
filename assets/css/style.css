@@ -4,6 +4,8 @@
     --laranja: #EB9B00;
     --azul: #002F52;
     --preto: #000000;
+    --cinza: #474646;
+    --cinza-claro: #858585;
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --fonte-principal: "Poppins";
     --fonte-secundaria: "Josefin Sans";
@@ -271,6 +273,10 @@ hr {
     padding: 1em;
 }
 
+.footer__list {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
     .container__title, .container__title-bold {
         font-family: var(--fonte-secundaria);
@@ -385,5 +391,35 @@ hr {
 
     .contact__email {
         width: 30%;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer__list {
+        display: block;
+    }
+
+    .footer__list-item {
+        display: flex;
+        align-items: center;
+        margin: 0.6em 0;
+    }
+
+    .footer__list-link {
+        color: var(--cinza);
+        text-decoration: none;
+        margin-left: 0.6em;
+    }
+
+    .footer__list-title {
+        font-size: 14px;
+        color: var(--cinza-claro);
+    }
+
+    .footer__title {
+        font-size: 24px;
     }
 }
