@@ -447,4 +447,64 @@ hr {
     .container__text {
         display: block;
     }
+
+    .banner__search {
+        width: 35%;
+    }
+
+    .banner__search::placeholder {
+        background-position: 10em;
+    }
+
+    .banner {
+        padding: 6em 0;
+    }
+
+    .carousel__container {
+        display: flex;
+        margin: 0 16vw 3em 16vw;
+        align-items: center;
+    }
+
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+
+    .swiper {
+        width: 50%;
+    }
+
+    .description {
+        margin-right: 2em;
+    }
+    
+    .description__title {
+        font-size: 32px;
+    }
+
+    .description__text {
+        font-size: 16px;
+    }
+
+    .card {
+        width: 50%;
+        margin-left: 3em;
+    }
+
+    .topics {
+        padding: 3em 20vw;
+    }
+
+    .contact {
+        padding: 3em 16vw;
+    }
+
+    .footer {
+        padding: 3em 0;
+    }
+
+    .footer__list {
+        border-left: 1px solid var(--cinza-claro);
+        padding-left: 1em;
+    }
 }
